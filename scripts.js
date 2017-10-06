@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
         keys[i].addEventListener("click", function(e){
             keyVal=this.innerHTML;
             input.push(keyVal);
-            readout.innerHTML=output;
+            //readout.innerHTML=output;
             console.log (input);
              
         })
