@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.calculator-body{
+    background-color: $primary-color;
+    height:30em;
+    width:18em;
+    padding:1em;
+    margin:0;
+    @include border;
+    .readout{
+        height:3em;
+        width:16em;
+        background-color:$num-key-color;
+        @include mp0;
+        @include border;
+    }
+    .keys{
+        height: 24em;
+        width:16em;
+        margin:0 auto;
+        padding-top: 1em;
+   
+        .num{
+            @include border;
+            @include mp0;
+            @include key-styles;
+            background-color: $num-key-color;
+        }
+        .symbol{
+            background-color:$operator-key-color;
+        }
+
+    }
+}

@@ -1,0 +1,16 @@
+@mixin key-styles{
+    height: 4.6em;
+    width:3.9em;
+    float: left;
+    text-align: center;
+    padding-top: 1.7em;
+ 
+}
+@mixin mp0{
+    margin:0 auto;
+    padding:0;
+}
+@mixin border{
+    border:solid 1px silver;
+    border-radius: 5px;
+}
